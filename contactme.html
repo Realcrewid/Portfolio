@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./contactme.css">
+</head>
+
+<body>
+    <header>
+        <div class="container1">
+            <div class="title">
+             <a href="index.html">Sumit Gupta</a>
+            </div>
+            <div class="navbar1">
+                <a href="index.html" target="_parent">Home</a>
+                <a href="#">About me</a>
+                <a href="#">Projects</a>
+                <a href="contactme.html" target="_parent">Contact</a>
+            </div>
+        </div>
+    </header>
+    <div class="form-div">
+        <div class="side-img">
+            <div id="content-img">
+                <p>Welcome to my portfolio website! Here, I showcase my skills and projects. If you're interested in
+                    connecting with me or have any inquiries, please feel free to reach out by filling out the form
+                    conveniently located on your right. I look forward to hearing from you and discussing potential
+                    opportunities. Thank you for visiting! 😃</p>
+            </div>
+        </div>
+        <div class="container form">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="tel" class="form-label">Mobile no.</label>
+                    <input type="tel" class="form-control" id="name" aria-describedby="mobile" required>
+                </div>
+                <div class="mb-3">
+                    <label for="state" class="form-label-sm">State</label>
+                    <select class="form-select form-select-sm" aria-label="Small select example" id="state" required>
+                        <option selected>Select State</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Query</label><br>
+                    <textarea class="form-control" aria-label="With textarea" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./state.js"></script>
+    <script src="./contactme.js"></script>
+</body>
+</html>

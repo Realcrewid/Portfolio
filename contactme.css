@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e8f0fa;
+}
+a{
+    text-decoration: none;
+}
+.form-div{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 50px;
+}
+#content-img{
+  margin-top: 50px;
+  width: 50%;
+  margin-left: 50px;
+  font-size: 1.6rem;
+  color: #898681;
+  font-family: 'Protest Riot', sans-serif;
+}
+.side-img{
+  /* background-image: url("../assets/images/contact-bg.jpg"); */
+/* background-color: #163757; */
+background-color:#F7F2EB;
+  margin-top: 50px;
+/* opacity: 0.5;
+object-fit: cover; */
+/* height: 400px; */
+width: 100%;
+border-radius: 1rem;
+}
+.container1 {
+  display: flex;
+  background-color: #163757;
+  height: 38px;
+}
+.title {
+  margin-left: 40px;
+  line-height: 1.9rem;
+  font-size: 1.5rem;
+}
+.title a{
+  color: white;
+}
+.navbar1{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  gap: 10px;
+}
+.navbar1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.form{
+    margin-top: 50px;
+    width: 500px;
+    padding: 10px;
+    background-color:#F7F2EB;
+    border-radius: 1rem;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
+}
+textarea{
+    width: 100%;
+}
+button{
+  padding: 10px;
+  border-radius: 1rem;
+  border: none;
+  background-color: #163757;
+  color: white;
+}
+label{
+  font-family: 'Protest Riot', sans-serif;
+  color: #898681;
+}
+select,input,textarea{
+  font-family: 'Protest Riot', sans-serif;
+  font-weight: normal;
+}
+
+button:hover{
+  background-color: orange;
+  
+}
